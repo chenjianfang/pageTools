@@ -27,9 +27,6 @@ ChangeDiv.prototype={
 		});
 		$(".left").click(function(){        ////当没有移出最左边
 			if(_this.nowValue>0){
-				if(_this.fun - _this.nowValue == 5 ){
-					_this.lock = true;
-				}
 				_this.moveDiv(-1);
 			}
 		});
