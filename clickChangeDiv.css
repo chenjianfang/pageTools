@@ -1,0 +1,41 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	list-style: none;
+	display: inline-block;
+}
+li{
+	float: left;
+}
+.container{
+	margin: 50px 50px;
+}
+.container li{
+	cursor: pointer;
+	width: 30px;
+	height: 20px;
+	color: #fff;
+	background: #ccc;
+	text-align: center;
+	line-height: 20px;
+}
+.checkState{
+	background: blue!important;
+	color: #fff!important;
+}
+.clickCommond{
+	cursor: pointer;
+	display: inline-block;
+	width: 50px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	background: red;
+	color: #fff;
+	font-size: 20px;
+}
+.showNum{
+	margin-left: 100px;
+}
